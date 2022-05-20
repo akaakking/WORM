@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes>
+	<class name="com.mec.orm.test.StudentInfo" tableName="stu_info">
+		<properties>
+			<property name="id" columnName="id"></property>
+			<property name="sex" columnName="sex"></property>
+			<property name="age" columnName="age"></property>
+			<property name="name" columnName="name"></property>
+		</properties>
+		<id propertyName="id" columnName="id"></id>
+	</class>
+</classes>
